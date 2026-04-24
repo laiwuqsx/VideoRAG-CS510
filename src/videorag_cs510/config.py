@@ -1,0 +1,14 @@
+from pathlib import Path
+
+
+TEST_VIDEO_PATH = "./test_video.mp4"
+WORKING_DIR = "./videorag_output"
+VIDEO_SEG_LENGTH = 30
+FRAMES_PER_SEG = 4
+EMBED_MODEL = "all-MiniLM-L6-v2"
+TOP_K_CHUNKS = 3
+
+
+def ensure_working_dir(path: str = WORKING_DIR) -> str:
+    Path(path).mkdir(parents=True, exist_ok=True)
+    return path
