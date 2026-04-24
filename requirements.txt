@@ -3,3 +3,6 @@ numpy
 networkx
 scikit-learn
 sentence-transformers
+openai-whisper
+google-generativeai
+openai

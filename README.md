@@ -11,8 +11,10 @@ Project scaffold for the CS510 VideoRAG assignment.
 ## Implemented
 
 - Part 1: video duration, video splitting, frame extraction
+- Part 2: audio transcription, frame captioning, segment processing
 
 ## Notes
 
 - `ffmpeg` and `ffprobe` must be available on your system `PATH`
 - Update the test video path in your notebook or scripts before running checks
+- Default Part 2 path is `Local Whisper` for transcription and `Gemini` for simple visual captioning
