@@ -13,6 +13,7 @@ Project scaffold for the CS510 VideoRAG assignment.
 - Part 1: video duration, video splitting, frame extraction
 - Part 2: audio transcription, frame captioning, segment processing
 - Part 3: JSON metadata storage, vector store, text chunk building
+- Part 4: entity extraction, knowledge graph, entity context lookup
 
 ## Notes
 

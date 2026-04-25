@@ -11,6 +11,7 @@ TOP_K_CHUNKS = 3
 
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
 
 LLM_PROVIDER = os.environ.get("VIDEORAG_LLM_PROVIDER", "gemini")
 TRANSCRIPTION_METHOD = os.environ.get("VIDEORAG_TRANSCRIPTION_METHOD", "whisper_local")
